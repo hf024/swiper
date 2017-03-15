@@ -1,0 +1,152 @@
+body,html {
+    position: relative;
+    height: 100%;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    background: #eeeeee;
+    color: #fff;
+}
+
+.skin-category-banner{
+    width: 100%;
+    height: 253px;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+
+.skin-banner-left, .skin-banner-right{
+    float: left;
+}
+
+.skin-banner-left{
+    width: 743px;
+    height: 253px;
+    margin-right: 20px;
+}
+
+.skin-banner-left .banner-slider .banner-one {
+    background: no-repeat center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 743px;
+    height: 253px;
+    display: none;
+    z-index: 1;
+}
+
+.skin-banner-left .banner-slider .banner-active{
+    z-index: 5;
+    display: block
+}
+
+
+.swiper-container {
+    width: 235px;
+    height: 253px;
+    text-align: center;
+	overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+.swiper-wrapper {
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    width: 235px;
+    height: 100%;
+}
+
+.swiper-slide-prev,
+ .swiper-slide-active{
+     margin-bottom: 6.5px;
+ }
+
+.swiper-slide a{
+	width:235px;
+	height:80px;
+	display:block;
+
+}
+.swiper-slide img {
+    vertical-align: middle;
+    display: block;
+    width: 235px;
+    height: 80px;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0,0,0,1);
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+ }
+
+.swiper-navigation-wrapper{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    width: 17px;
+    text-align: center;
+    z-index: 9;
+    overflow: visible;
+    height: 253px;
+    display: inline-block;
+   /* background: red;*/
+    margin:auto 0;
+}
+
+.swiper-navigation-wrapper .swiper-navigation-inner{
+    position: relative;
+    height: 253px;
+    left: -50%;
+    text-align: center;
+}
+
+.swiper-navigation-inner .swiper-button-prev,
+.swiper-navigation-inner .swiper-button-next{
+    -webkit-transition: all 80ms;
+    transition: all 80ms;
+    position: absolute;
+    z-index: 99;
+    color: #000;
+    text-shadow: 0 0 2px #555;
+    opacity: 1;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    outline: 0;
+    display: block;
+    width:17px;
+    height:30px;
+}
+
+.swiper-navigation-inner .swiper-button-prev{
+    background: url(../img/arrows.png) no-repeat left top;
+    top: 24px;
+    left: 8px;
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg); 	/* IE 9 */
+    -moz-transform:rotate(90deg); 	/* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(90deg)
+}
+
+.swiper-navigation-inner .swiper-button-next{
+    background: url(../img/arrows.png) no-repeat left bottom;
+    top: 253px;
+    left: 8px;
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg); 	/* IE 9 */
+    -moz-transform:rotate(90deg); 	/* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(90deg)
+}
+
+
+

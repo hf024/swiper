@@ -1,0 +1,168 @@
+body,html {
+    position: relative;
+    height: 100%;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    background: #eeeeee;
+    color: #fff;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 320px;
+    text-align: center;
+	overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+.swiper-wrapper {
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    width: 940px;
+    height: 100%;
+}
+.swiper-slide a{
+	width:940px;
+	height:320px;
+	display:block;
+}
+.swiper-slide img {
+    vertical-align: middle;
+    display: block;
+    width: 940px;
+    height: 320px;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0,0,0,1);
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+ }
+
+.pagination {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+    overflow: visible;
+    height: 0;
+    display: inline-block;
+}
+
+.con_board_outer {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 11;
+    overflow: visible;
+    height: 0;
+}
+
+.con_board {
+    display: inline-block;
+	font-size: 0;
+}
+
+.con_board .con_list{
+    display: inline-block;
+	position:relative;
+    height: 18px;
+    background: url("../img/con_board_bj.png") no-repeat;
+    text-align: left;
+    overflow: hidden;
+    padding-left: 9px;
+    vertical-align: top;
+}
+.con_board .right_border{
+    display: inline-block;
+    background: url("../img/con_board_bj_right.png") right top no-repeat;
+    width: 4px;
+    height: 18px;
+    vertical-align: top;
+}
+
+.con_board .con_list a{
+    cursor: pointer;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+	margin:3px 5px 0 0;
+    background: url("../img/con_board_normal.png") center no-repeat;
+	opacity: 1;
+}
+
+.con_board .con_list a.swiper-pagination-bullet-active {
+	width: 12px;
+    height: 12px;
+    background: url("../img/con_board_cur.png") center no-repeat;
+}
+
+.swiper-navigation-wrapper{
+    float: left;
+    position: absolute;
+    left: 50%;
+    top: 140px;
+    width: 940px;
+    text-align: center;
+    z-index: 9;
+    overflow: visible;
+    height: 0;
+    display: inline-block;
+    background: red;
+    margin:0 auto;
+}
+
+.swiper-navigation-wrapper .swiper-navigation-inner{
+    position: relative;
+    left: -50%;
+    text-align: left;
+}
+
+.swiper-navigation-inner .swiper-button-prev,
+.swiper-navigation-inner .swiper-button-next{
+    -webkit-transition: all 80ms;
+    transition: all 80ms;
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    text-shadow: 0 0 2px #555;
+    opacity: .1;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    outline: 0;
+    display: block;
+    width:17px;
+    height:30px;
+}
+
+.swiper-navigation-inner .swiper-button-prev{
+    background: url(../img/arrows.png) no-repeat left top;
+    left: 10px;
+}
+
+.swiper-navigation-inner .swiper-button-next{
+    background: url(../img/arrows.png) no-repeat left bottom;
+    right: 10px;
+}
+
+.swiper-navigation-hover .swiper-button-prev,
+.swiper-button-prev:hover,
+.swiper-navigation-hover .swiper-button-next,
+.swiper-button-next:hover{
+    opacity: 1;
+}
+
+
+
+
