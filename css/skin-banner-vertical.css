@@ -128,7 +128,7 @@ body {
 
 .swiper-navigation-inner .swiper-button-prev{
     background: url(../img/arrows.png) no-repeat left top;
-    top: 24px;
+    top: 8px;
     left: 8px;
     transform:rotate(90deg);
     -ms-transform:rotate(90deg); 	/* IE 9 */
@@ -139,7 +139,7 @@ body {
 
 .swiper-navigation-inner .swiper-button-next{
     background: url(../img/arrows.png) no-repeat left bottom;
-    top: 253px;
+    top: 220px;
     left: 8px;
     transform:rotate(90deg);
     -ms-transform:rotate(90deg); 	/* IE 9 */
